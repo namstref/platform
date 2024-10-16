@@ -1,0 +1,41 @@
+/* frontend/src/components/VideoPlayer.css */
+
+/* Стили для фиксированного размера видеоплеера */
+.fixed-video {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Контейнер для видео с центрированием */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Адаптивность для меньших экранов */
+@media (max-width: 768px) {
+  .fixed-video, .video-container iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed-image {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Дополнительные стили для текста (если необходимо) */
+.card-body > div {
+  white-space: pre-wrap; /* Позволяет сохранять переносы строк */
+}

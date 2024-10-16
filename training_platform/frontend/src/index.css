@@ -1,0 +1,38 @@
+/* src/index.css */
+
+/* Установка высоты для html, body и #root */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Общие стили */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  color: #343a40;
+}
+
+/* Кнопки */
+button {
+  cursor: pointer;
+}
+
+/* Модальные окна */
+.modal-content {
+  border-radius: 8px;
+}
+
+/* Стили для текста с HTML-контентом */
+.card-body > div {
+  white-space: pre-wrap; /* Позволяет сохранять переносы строк */
+}
+
+/* Разрешение на использование цветов, заданных в HTML */
+.card-body > div span {
+  /* Дополнительные стили при необходимости */
+}
